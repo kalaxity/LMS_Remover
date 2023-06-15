@@ -1,0 +1,1 @@
+[...document.querySelectorAll("tr.lms-course-list-lms-panel, tr.lms-course-list-lms-panel-caption")].forEach((e) => e.remove())

@@ -1,0 +1,12 @@
+{
+	"name": "LMSRemover",
+	"description": "remove unused lecture in lms-course",
+	"version": "1.0",
+	"manifest_version": 3, 
+	"content_scripts": [
+		{
+			"matches": ["https://*.ac.jp/base/lms-course/list"],
+			"js": ["remove.js"]
+		}
+	]
+}
